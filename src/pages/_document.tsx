@@ -1,20 +1,16 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import { Html, Head, Main, NextScript } from "next/document";
-import { usePathname, useSearchParams } from "next/navigation";
 import Script from "next/script";
 
 export default function Document() {
 
+  const id = process.env.ADS == null?"": process.env.ADS;
 
   return (
     <Html className="scroll-smooth" lang="pt-br">
       <Head title="Piscologo Paulo">
-        <Script async strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.ADS}`}>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', ${process.env.ADS});`}
-        </Script>
+        <GoogleAnalytics gaId={id} />
         
       </Head>
       <body>
