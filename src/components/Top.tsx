@@ -17,7 +17,7 @@ export default function Top() {
     
   return(
     <header className="w-full flex justify-between items-center bg-sky-50 sticky top-0 z-10 lg:h-16 md:px-28">
-      <Link href={"/"}><div className="icon"><h1 className="uppercase">Ψ</h1></div></Link>
+      <Link href={"/"}><div className="ml-3 md:ml-0 text-sky-800 italic"><h1 className="uppercase">Psicologo Paulo</h1></div></Link>
       <svg className="md:hidden" onClick={()=>setClosedNav(!closedNav)} height="80" width="80">
         {closedNav?(
           <g fill="none">
