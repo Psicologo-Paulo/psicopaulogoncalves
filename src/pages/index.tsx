@@ -46,7 +46,7 @@ export default function Home() {
         <section id="aboutme" className="min-h-screen px-10 py-20 lg:px-48 bg-gradient-to-b from-sky-50 to-sky-100 md:flex md:items-center">
           <div className="md:flex md:justify-center md:items-center md:gap-10">
             <div className="md:max-w-2xl md:w-1/2 p-auto"><img src="/paulo_2.png" alt="Foto" /></div>
-            <div className="md:max-w-[664px] md:w-full mt-5 md:mt-0 flex flex-col gap-2 text-lg hyphens-auto indent-7">
+            <div className="md:max-w-[664px] md:w-full mt-5 md:mt-0 flex flex-col gap-2 text-lg text-justify indent-7">
               <h1 className="text-2xl font-bold uppercase indent-0">quem sou eu</h1>
               <p>Sou Paulo Alexandre Gonçalves, psicólogo clínico. Sou bacharel em Filosofia, licenciado em Psicologia e pós graduando em Terapia Cognitivo comportamental, que é a abordagem que utilizo. Meu trabalho é voltado para: adolescentes, jovens, adultos e idosos.</p>
               <p>No meu modo de entender, a psicoterapia pode ser útil não só para quem desenvolveu algum transtorno (depressão, ansiedade, stress etc), mas também para aquele que quer se conhecer melhor: descobrir e aceitar suas potencialidades e fragilidades, tendo uma melhor qualidade de vida. </p>
@@ -55,13 +55,13 @@ export default function Home() {
         </section>
 
         <section id="therapies" className="min-h-screen px-10 py-20 lg:px-48 bg-gradient-to-b from-sky-100 to-sky-200 md:flex md:items-center">
-          <div className="flex flex-col items-center gap-10 hyphens-auto indent-7">
+          <div className="flex flex-col items-center gap-10 text-justify indent-7">
             <h2 className="text-3xl uppercase indent-0">terapia</h2>
             <p className="text-xl">A terapia oferece um espaço seguro e acolhedor para explorar uma ampla gama de questões emocionais, comportamentais e interpessoais em uma jornada de autodescoberta e crescimento pessoal. Sob a orientação de um profissional qualificado, o tratamento pode ser realizado em diversas frentes e tem como objetivo promover mudanças positivas e duradouras na vida de um indivíduo. Trabalho com duas modalidades de terapia:</p>
             
             <div className="md:grid md:grid-cols-2 md:gap-10 text-lg">
-                <div>
-                  <h2 className="text-2xl indent-0">TERAPIA PRESENCIAL</h2>
+                <div className=" indent-0">
+                  <h2 className="text-2xl">TERAPIA PRESENCIAL</h2>
                   <p>A terapia presencial é feita no consultório, com horário marcado e duração de 50 minutos por sessão.</p>
                   <p>Logicamente também presamos pelo sigilo, que é previsto pelo código de ética profissional. </p>
                 </div>
