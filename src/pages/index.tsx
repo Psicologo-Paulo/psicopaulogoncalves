@@ -25,7 +25,7 @@ export default function Home() {
       <Top/>
       <main>
         <section id="start" className="h-screen overflow-hidden bg-gradient-radial from-sky-600 to-sky-100">
-          <div className="h-full grid grid-cols-2 bg-[url(/paulo_e.png)] bg-no-repeat bg-center pb-28">
+          <div className="h-full grid grid-cols-2 bg-[url(/paulo_e.png)] bg-no-repeat bg-top pb-28">
             <div className="h-[65vh] col-span-2">
               <div className="flex">
                 <img id="lLeaf" className="max-w-none w-[160vw] md:max-w-7xl md:w-full absolute left-0 top-0" src="/eFolha.png" alt="folhagem do lado esquerdo" />
@@ -59,15 +59,15 @@ export default function Home() {
             <h2 className="text-3xl uppercase indent-0">terapia</h2>
             <p className="text-xl">A terapia oferece um espaço seguro e acolhedor para explorar uma ampla gama de questões emocionais, comportamentais e interpessoais em uma jornada de autodescoberta e crescimento pessoal. Sob a orientação de um profissional qualificado, o tratamento pode ser realizado em diversas frentes e tem como objetivo promover mudanças positivas e duradouras na vida de um indivíduo. Trabalho com duas modalidades de terapia:</p>
             
-            <div className="md:grid md:grid-cols-2 md:gap-10 text-lg">
-                <div className=" indent-0">
+            <div className="md:grid md:grid-cols-2 md:gap-10 text-lg indent-0">
+                <div>
                   <h2 className="text-2xl">TERAPIA PRESENCIAL</h2>
                   <p>A terapia presencial é feita no consultório, com horário marcado e duração de 50 minutos por sessão.</p>
                   <p>Logicamente também presamos pelo sigilo, que é previsto pelo código de ética profissional. </p>
                 </div>
                 
                 <div>
-                  <h2 className="text-2xl indent-0">TERAPIA ON-LINE</h2>
+                  <h2 className="text-2xl">TERAPIA ON-LINE</h2>
                   <p>A terapia online tem o mesmo principio que a presencial, porém esta é feita de forma remota podendo ser via  Meet, Zoom que são as plataformas mais seguras. Além da modalidade do atendimento online proporcionar flexibilidade de horário e economia de tempo com deslocamentos.</p>
                   <p>Meu atendimento on-line segue as orientações previstas pelo conselho profissional, visando a segurança e o sigilo do paciente.</p>
                 </div>
