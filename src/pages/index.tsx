@@ -145,7 +145,7 @@ export default function Home() {
               </div>
             </div>
 
-            <p className="text-2xl font-bold">se você estiver atravessando uma fase difícil na vida, não hesite em buscar pela ajuda de um terapeuta. A psicoterapia pode salvar e transformar vidas.</p>
+            <p className="text-3xl text-center font-cursive indent-0">Se você estiver atravessando uma fase difícil na vida, não hesite em buscar pela ajuda de um terapeuta. A psicoterapia pode salvar e transformar vidas.</p>
 
           </div>
         </section>
