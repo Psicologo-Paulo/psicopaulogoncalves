@@ -1,6 +1,7 @@
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+
+import Analytics from "@/components/analytics/analytics";
 
 export default function Document() {
 
@@ -10,18 +11,11 @@ export default function Document() {
     <Html className="scroll-smooth" lang="pt-br">
       <Head title="Piscologo Paulo">
         
-        <Script async strategy="afterInteractive" src={`https://www.googletagmanager.com/gtag/js?id=${id}`}>
-          {`window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', ${id});`}
-        </Script>
-        
       </Head>
       <body>
         <Main />
         <NextScript />
+        <Analytics />
       </body>
     </Html>
   );
