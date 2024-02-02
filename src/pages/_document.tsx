@@ -5,12 +5,9 @@ import Analytics from "@/components/analytics/analytics";
 
 export default function Document() {
 
-  const id = process.env.ADS == null?"": process.env.ADS;
-
   return (
     <Html className="scroll-smooth" lang="pt-br">
       <Head title="Piscologo Paulo">
-        
       </Head>
       <body>
         <Main />

@@ -38,7 +38,7 @@ export default function Top() {
       >
         <Buttonh link="/">inicio</Buttonh>
         <Buttonh link="/#aboutme">quem sou</Buttonh>
-        <Buttonh link="/#therapies">terapia</Buttonh>
+        <Buttonh link="/#therapies">psicoterapia</Buttonh>
         <Buttonh link="/#contact">contatos</Buttonh>
         <Buttonh link="https://api.whatsapp.com/send?phone=5517997483419">
           <p className="flex gap-1 w-max justify-center items-center"><img className="h-6" src="/whats-icon.png" alt="logo whatsapp" />agende aqui</p>
