@@ -33,7 +33,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-screen col-span-2 from-sky-50 to-sky-50 bg-gradient-to-r md:from-transparent md:via-sky-50 md:to-transparent text-center text-sky-900 p-2">
-              <div className="flex hidden lg:block">
+              <div className="hidden lg:block">
                 <img className="h-[20vh] absolute" src="/simbolo.png" alt="" />
                 <img className="h-[20vh] right-0 absolute" src="/simbolo.png" alt="" />
               </div>
