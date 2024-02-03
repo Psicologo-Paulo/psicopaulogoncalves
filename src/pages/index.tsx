@@ -108,7 +108,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 items-center gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 items-center gap-4 text-justify hyphens-auto">
               <div className="h-full col-span-2 flex gap-2 border-2 border-sky-700 rounded-xl p-3 transition ease-linear">
                 <div>
                   <h3 className="text-2xl text-center uppercase font-semibold">Lidar com sentimentos</h3>
