@@ -21,18 +21,18 @@ export default function Home() {
   },[])
 
   return (
-    <div className="font-serif">
+    <div className="font-serif ">
       <Top/>
       <main>
         <section id="start" className="h-screen overflow-hidden bg-gradient-radial from-sky-600 to-sky-100">
           <div className="h-full grid grid-cols-2 bg-[url(/paulo_e.png)] bg-no-repeat bg-top pb-28">
             <div className="h-[65vh] col-span-2">
               <div className="flex">
-                <img id="lLeaf" className="max-w-none w-[160vw] md:max-w-7xl md:w-full absolute left-0 top-0" src="/eFolha.png" alt="folhagem do lado esquerdo" />
-                <img id="rLeaf" className="max-w-none w-[160vw] md:max-w-7xl md:w-full absolute right-0 top-0" src="/dFolha.png" alt="folhagem do lado direito" />
+                <img id="lLeaf" className="max-w-none w-1/2 lg:max-w-xl lg:w-full absolute left-0 top-0" src="/eFolha.png" alt="folhagem do lado esquerdo" />
+                <img id="rLeaf" className="max-w-none w-1/2 lg:max-w-xl lg:w-full absolute right-0 top-0" src="/dFolha.png" alt="folhagem do lado direito" />
               </div>
             </div>
-            <div className="w-screen col-span-2 from-sky-50 to-sky-50 bg-gradient-to-r md:from-transparent md:via-sky-50 md:to-transparent text-center text-sky-900 p-2">
+            <div className="w-full col-span-2 from-sky-50 to-sky-50 bg-gradient-to-r md:from-transparent md:via-sky-50 md:to-transparent text-center text-sky-900 p-2">
               <div className="hidden lg:block">
                 <img className="h-[20vh] absolute" src="/simbolo.png" alt="" />
                 <img className="h-[20vh] right-0 absolute" src="/simbolo.png" alt="" />
