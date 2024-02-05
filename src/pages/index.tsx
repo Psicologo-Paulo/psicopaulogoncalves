@@ -37,12 +37,12 @@ export default function Home() {
                 <img className="h-[20vh] absolute" src="/simbolo.png" alt="" />
                 <img className="h-[20vh] right-0 absolute" src="/simbolo.png" alt="" />
               </div>
-              <h1 className="text-2xl font-bold">PAULO ALEXANDRE GONÇALVES</h1>
-              <h2 className="text-xl font-bold">PSICÓLO CLÍNICO | CRP 06/119960</h2>
-              <h2 className="text-xl">TERAPIA COGNITVO COMPORTAMENTAL</h2>
-              <p className="text-lg"> &quot; O QUE PERTUBA O SER HUMANO NÃO SÃO FATOS,</p>
-              <p className="text-lg">MAS A INTERPRETAÇÃO QUE ELE FAZ DOS FATOS. &quot;</p>
-              <p className="text-md">—Epitectus século I</p>
+              <div className="h-full flex flex-col justify-center items-center">
+                <h1 className="text-2xl font-bold">PAULO ALEXANDRE GONÇALVES</h1>
+                <h2 className="text-xl font-bold">PSICÓLO CLÍNICO | CRP 06/119960</h2>
+                <h2 className="text-xl">TERAPIA COGNITVO COMPORTAMENTAL</h2>
+                <p className="text-Xl">TRANSFORME SUA VIDA COM A TCC</p>
+              </div>
             </div>
           </div>
         </section>
