@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Bottom(){
     return (
         <footer id="contact" className="w-full min-h-60 grid grid-cols-2 gap-3 bg-sky-950 text-sky-50 text-lg capitalize bottom-0 p-2 md:px-28">
-            <div className="col-span-2 text-center normal-case font-serif text-xl">
+            <div className="col-span-2 flex justify-center items-center text-center normal-case font-serif text-xl">
                 <p>&quot;O que perturba o ser humano não são fatos, mas a interpretação que ele faz dos fatos.&quot; — Epitectus Século I</p>
             </div>
             <div className="col-span-2 md:col-span-1 flex flex-col justify-around items-center">
