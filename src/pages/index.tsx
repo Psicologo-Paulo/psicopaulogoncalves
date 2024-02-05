@@ -21,7 +21,7 @@ export default function Home() {
   },[])
 
   return (
-    <div className="font-serif ">
+    <div className="font-mono ">
       <Top/>
       <main>
         <section id="start" className="h-screen overflow-hidden bg-gradient-radial from-sky-600 to-sky-100">
@@ -76,6 +76,13 @@ export default function Home() {
                   <p>Meu atendimento on-line segue as orientações previstas pelo conselho profissional, visando a segurança e o sigilo do paciente.</p>
                 </div>
             </div>
+
+            <Link 
+              href="https://api.whatsapp.com/send?phone=5517997483419"
+              className="h-14 flex justify-center items-center text-center px-2 border-2 rounded-2xl bg-sky-300 hover:bg-sky-400 hover:text-sky-50 uppercase transition ease-linear duration-75 hover:-translate-y-2 hover:scale-105"
+            >
+              <p className="flex gap-0 w-max justify-center items-center"><img className="h-6" src="/whats-icon.png" alt="logo whatsapp" />Click aqui e entre em contato</p>
+            </Link>
         
             <Link href={"/terapias/tcc"}>
               <div className="border-2 border-sky-700 hover:border-sky-50 bg-transparent hover:bg-sky-600 text-xl text-sky-700 hover:text-sky-50 rounded-xl p-3 transition ease-linear duration-100 hover:-translate-y-1 hover:scale-110">
