@@ -1,5 +1,6 @@
 import Top from "@/components/Top";
 import Bottom from "@/components/Bottom";
+import WhatsButton from "@/components/WhatsButton";
 import Link from "next/link";
 import { useEffect } from "react";
 
@@ -24,6 +25,7 @@ export default function Home() {
     <div className="font-mono ">
       <Top/>
       <main>
+        <WhatsButton />
         <section id="start" className="h-screen overflow-hidden bg-gradient-radial from-sky-600 to-sky-100">
           <div className="h-full grid grid-cols-2 bg-[url(/paulo_e.png)] bg-no-repeat bg-top pb-28">
             <div className="h-[65vh] col-span-2">

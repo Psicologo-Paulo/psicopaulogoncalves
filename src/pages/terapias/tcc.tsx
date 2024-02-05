@@ -1,11 +1,13 @@
 import Top from "@/components/Top";
 import Bottom from "@/components/Bottom";
+import WhatsButton from "@/components/WhatsButton";
 
 export default function Tcc() {
     return(
         <>
             <Top />
             <main className="bg-gradient-to-t from-sky-100 to-sky-50 md:flex md:justify-center md:items-start md:gap-10 md:p-5">
+                <WhatsButton />
                 <div className="md:max-w-[664px] md:w-full mt-5 md:mt-0 flex flex-col gap-2 text-xl text-justify">
                     <h1 className="text-3xl font-bold text-center">O QUE É A TERAPIA COGNITVO COMPORTAMENTAL?</h1>
                     <p>A Terapia Cognitivo-Comportamental foi criada pelo psiquiatra Aaron Beck em 1960. Beck, em sua prática clínica atuava como psicanalista, mas ao observar seus pacientes depressivos, passou a se questionar, se o que causava a depressão era mesmo fatores inconscientes. Com base em uma observação minuciosa, começou a notar que os sintomas depressivos de seus pacientes surgiam, devido a interpretações negativas da realidade, ou seja, os sintomas surgiam a partir da interpretação negativa de si, do outro e do mundo. Fundamentado nisso, Aaron Beck desenvolve a Terapia Cognitivo-Comportamental e passou a adotar o modelo cognitivo como base para seus atendimentos (BECK, 2013 apud TARCHA A; 2019).</p>
