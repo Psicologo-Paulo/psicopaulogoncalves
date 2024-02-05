@@ -16,6 +16,7 @@ const config: Config = {
     },
     fontFamily: {
       cursive: "Dancing Script",
+      serif: ["Gideon Roman", "serif"],
     }
   },
   plugins: [],
